@@ -8,7 +8,7 @@ var noteSchema = new Schema({
         ref: "Headline",
     },
     date: String,
-    noteText: string
+    noteText: String
 });
 
 var Note = mongoose.model("Note", noteSchema);
