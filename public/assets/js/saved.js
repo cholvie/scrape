@@ -52,7 +52,7 @@ $(document).ready(function() {
                 "<a class='btn btn-danger delete'>",
                 "Delete From Saved",
                 "</a>",
-                "<a class='btn btn-info notes'>Article Notes</a>"
+                "<a class='btn btn-info notes'>Article Notes</a>",
                 "</h3>",
                 "</div>",
                 "<div class='panel-body'>",
@@ -114,7 +114,7 @@ $(document).ready(function() {
                       $([
                           "<li class='list-group-item note'>",
                           data.notes[i].noteText,
-                          "<button class='btn btn-danger note-delete'>X</button>"
+                          "<button class='btn btn-danger note-delete'>X</button>",
                           "</li>"
                       ].join(""));
                     //   store the note id on the dlete button for easy access when trying to delete
